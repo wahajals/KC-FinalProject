@@ -11,10 +11,12 @@ struct HomeIView: View {
     private let adaptiveColumns = [
         GridItem(.adaptive(minimum: 170))
     ]
+    init() {
+        UITabBar.appearance().isHidden = true 
+    }
     var body: some View {
         NavigationView{
             VStack{
-               
                 Text("iCare")
                     .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .bottom)
                     .font(.system(size: 60, weight:.bold))
@@ -24,7 +26,6 @@ struct HomeIView: View {
                     .foregroundColor(.init("CustomColor"))
                     .background(Rectangle().stroke().foregroundColor(.secondary))
                     .frame(width: 500, height:120).edgesIgnoringSafeArea(.all)
-              
                 TabView {
                                   ForEach(myTabScrollView) { Tab in
                                       Image(Tab.title)

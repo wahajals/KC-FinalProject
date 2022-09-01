@@ -19,6 +19,13 @@
 		35DE3D1F28BFED1000A554D1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D1E28BFED1000A554D1 /* ProfileView.swift */; };
 		35DE3D2128BFFBF300A554D1 /* Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2028BFFBF300A554D1 /* Grids.swift */; };
 		35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2228C011E200A554D1 /* TabScrollView.swift */; };
+		35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2428C0407900A554D1 /* OurMissionView.swift */; };
+		35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2628C0409400A554D1 /* ContactUsView.swift */; };
+		35DE3D2928C0411600A554D1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2828C0411600A554D1 /* MenuView.swift */; };
+		35DE3D2B28C045E600A554D1 /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2A28C045E600A554D1 /* TabButtonView.swift */; };
+		35DE3D2F28C04D4E00A554D1 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */; };
+		35DE3D3128C056A500A554D1 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D3028C056A500A554D1 /* SideMenuView.swift */; };
+		35DE3D3328C05D0F00A554D1 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D3228C05D0F00A554D1 /* HomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,13 @@
 		35DE3D1E28BFED1000A554D1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		35DE3D2028BFFBF300A554D1 /* Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids.swift; sourceTree = "<group>"; };
 		35DE3D2228C011E200A554D1 /* TabScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScrollView.swift; sourceTree = "<group>"; };
+		35DE3D2428C0407900A554D1 /* OurMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionView.swift; sourceTree = "<group>"; };
+		35DE3D2628C0409400A554D1 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		35DE3D2828C0411600A554D1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		35DE3D2A28C045E600A554D1 /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		35DE3D3028C056A500A554D1 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		35DE3D3228C05D0F00A554D1 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +76,16 @@
 			children = (
 				3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */,
 				35DE3D1828BFECC200A554D1 /* HomeIView.swift */,
+				35DE3D3228C05D0F00A554D1 /* HomePageView.swift */,
 				35DE3D1A28BFECEB00A554D1 /* NotificationsView.swift */,
 				35DE3D1C28BFECFE00A554D1 /* SearchView.swift */,
 				35DE3D1E28BFED1000A554D1 /* ProfileView.swift */,
+				35DE3D2428C0407900A554D1 /* OurMissionView.swift */,
+				35DE3D2628C0409400A554D1 /* ContactUsView.swift */,
+				35DE3D2828C0411600A554D1 /* MenuView.swift */,
+				35DE3D3028C056A500A554D1 /* SideMenuView.swift */,
+				35DE3D2A28C045E600A554D1 /* TabButtonView.swift */,
+				35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */,
 				3572271528BE99B700060CD6 /* CustomFonts */,
 			);
 			path = Views;
@@ -188,10 +209,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DE3D1D28BFECFE00A554D1 /* SearchView.swift in Sources */,
+				35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */,
 				359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */,
 				35DE3D1928BFECC200A554D1 /* HomeIView.swift in Sources */,
+				35DE3D3328C05D0F00A554D1 /* HomePageView.swift in Sources */,
+				35DE3D2F28C04D4E00A554D1 /* CustomCorners.swift in Sources */,
 				359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */,
 				35DE3D1F28BFED1000A554D1 /* ProfileView.swift in Sources */,
+				35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */,
+				35DE3D3128C056A500A554D1 /* SideMenuView.swift in Sources */,
+				35DE3D2928C0411600A554D1 /* MenuView.swift in Sources */,
+				35DE3D2B28C045E600A554D1 /* TabButtonView.swift in Sources */,
 				35DE3D1B28BFECEB00A554D1 /* NotificationsView.swift in Sources */,
 				35DE3D2128BFFBF300A554D1 /* Grids.swift in Sources */,
 				35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */,
