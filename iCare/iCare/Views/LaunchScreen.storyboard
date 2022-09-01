@@ -85,12 +85,13 @@
                             <constraint firstItem="SEo-A7-J0i" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ezi-F9-VK5"/>
                             <constraint firstItem="jiS-Z5-2CV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-12" id="iFd-VA-Pxt"/>
                             <constraint firstItem="jiS-Z5-2CV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="j9z-5r-7Gc"/>
+                            <constraint firstItem="jiS-Z5-2CV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-12" id="t0B-No-gk1"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="28" y="46"/>
         </scene>
     </scenes>
     <resources>

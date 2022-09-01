@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356DCC3428C128A700E92F61 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3328C128A700E92F61 /* Meditation.swift */; };
+		356DCC3628C13D4200E92F61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3528C13D4200E92F61 /* Menu.swift */; };
+		356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */; };
+		356DCC3A28C1416800E92F61 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3928C1416800E92F61 /* SideMenuOptionView.swift */; };
+		356DCC3C28C1419700E92F61 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3B28C1419700E92F61 /* SideMenu.swift */; };
+		356DCC3E28C15AE400E92F61 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3D28C15AE400E92F61 /* LogoutView.swift */; };
 		3572271128BE90DB00060CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */; };
 		3572271728BE99D100060CD6 /* Chivo in Resources */ = {isa = PBXBuildFile; fileRef = 3572271628BE99D100060CD6 /* Chivo */; };
 		359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F3F7328BD1CE90011F18C /* iCareApp.swift */; };
@@ -21,14 +27,16 @@
 		35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2228C011E200A554D1 /* TabScrollView.swift */; };
 		35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2428C0407900A554D1 /* OurMissionView.swift */; };
 		35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2628C0409400A554D1 /* ContactUsView.swift */; };
-		35DE3D2928C0411600A554D1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2828C0411600A554D1 /* MenuView.swift */; };
-		35DE3D2B28C045E600A554D1 /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2A28C045E600A554D1 /* TabButtonView.swift */; };
-		35DE3D2F28C04D4E00A554D1 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */; };
 		35DE3D3128C056A500A554D1 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D3028C056A500A554D1 /* SideMenuView.swift */; };
-		35DE3D3328C05D0F00A554D1 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE3D3228C05D0F00A554D1 /* HomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		356DCC3328C128A700E92F61 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		356DCC3528C13D4200E92F61 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		356DCC3928C1416800E92F61 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		356DCC3B28C1419700E92F61 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		356DCC3D28C15AE400E92F61 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
 		3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3572271628BE99D100060CD6 /* Chivo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Chivo; path = ../../../../../../../../Downloads/Chivo; sourceTree = "<group>"; };
 		359F3F7028BD1CE90011F18C /* iCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,11 +52,7 @@
 		35DE3D2228C011E200A554D1 /* TabScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScrollView.swift; sourceTree = "<group>"; };
 		35DE3D2428C0407900A554D1 /* OurMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionView.swift; sourceTree = "<group>"; };
 		35DE3D2628C0409400A554D1 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
-		35DE3D2828C0411600A554D1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		35DE3D2A28C045E600A554D1 /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
-		35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		35DE3D3028C056A500A554D1 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
-		35DE3D3228C05D0F00A554D1 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356DCC3F28C17A9A00E92F61 /* MENU */ = {
+			isa = PBXGroup;
+			children = (
+				35DE3D3028C056A500A554D1 /* SideMenuView.swift */,
+				356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */,
+				356DCC3928C1416800E92F61 /* SideMenuOptionView.swift */,
+				356DCC3528C13D4200E92F61 /* Menu.swift */,
+			);
+			path = MENU;
+			sourceTree = "<group>";
+		};
 		3572270E28BE903100060CD6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				35DE3D2028BFFBF300A554D1 /* Grids.swift */,
 				35DE3D2228C011E200A554D1 /* TabScrollView.swift */,
+				356DCC3B28C1419700E92F61 /* SideMenu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,16 +92,14 @@
 			children = (
 				3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */,
 				35DE3D1828BFECC200A554D1 /* HomeIView.swift */,
-				35DE3D3228C05D0F00A554D1 /* HomePageView.swift */,
+				356DCC3328C128A700E92F61 /* Meditation.swift */,
 				35DE3D1A28BFECEB00A554D1 /* NotificationsView.swift */,
 				35DE3D1C28BFECFE00A554D1 /* SearchView.swift */,
 				35DE3D1E28BFED1000A554D1 /* ProfileView.swift */,
 				35DE3D2428C0407900A554D1 /* OurMissionView.swift */,
 				35DE3D2628C0409400A554D1 /* ContactUsView.swift */,
-				35DE3D2828C0411600A554D1 /* MenuView.swift */,
-				35DE3D3028C056A500A554D1 /* SideMenuView.swift */,
-				35DE3D2A28C045E600A554D1 /* TabButtonView.swift */,
-				35DE3D2E28C04D4E00A554D1 /* CustomCorners.swift */,
+				356DCC3D28C15AE400E92F61 /* LogoutView.swift */,
+				356DCC3F28C17A9A00E92F61 /* MENU */,
 				3572271528BE99B700060CD6 /* CustomFonts */,
 			);
 			path = Views;
@@ -209,17 +223,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DE3D1D28BFECFE00A554D1 /* SearchView.swift in Sources */,
+				356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */,
 				35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */,
+				356DCC3C28C1419700E92F61 /* SideMenu.swift in Sources */,
 				359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */,
 				35DE3D1928BFECC200A554D1 /* HomeIView.swift in Sources */,
-				35DE3D3328C05D0F00A554D1 /* HomePageView.swift in Sources */,
-				35DE3D2F28C04D4E00A554D1 /* CustomCorners.swift in Sources */,
 				359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */,
 				35DE3D1F28BFED1000A554D1 /* ProfileView.swift in Sources */,
+				356DCC3E28C15AE400E92F61 /* LogoutView.swift in Sources */,
 				35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */,
+				356DCC3A28C1416800E92F61 /* SideMenuOptionView.swift in Sources */,
+				356DCC3428C128A700E92F61 /* Meditation.swift in Sources */,
 				35DE3D3128C056A500A554D1 /* SideMenuView.swift in Sources */,
-				35DE3D2928C0411600A554D1 /* MenuView.swift in Sources */,
-				35DE3D2B28C045E600A554D1 /* TabButtonView.swift in Sources */,
+				356DCC3628C13D4200E92F61 /* Menu.swift in Sources */,
 				35DE3D1B28BFECEB00A554D1 /* NotificationsView.swift in Sources */,
 				35DE3D2128BFFBF300A554D1 /* Grids.swift in Sources */,
 				35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */,

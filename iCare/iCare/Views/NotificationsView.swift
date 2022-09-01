@@ -13,13 +13,13 @@ struct NotificationsView: View {
             VStack{
                 Text("Notifications")
                     .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .bottom)
-                    .font(.system(size: 40, weight:.bold))
+                    .font(.system(size: 30, weight:.bold))
                     .padding()
-                    .font(.custom("Chivo", size: 40))
+                    .font(.custom("Chivo", size: 30))
                     .shadow(radius: 5)
                     .foregroundColor(.init("CustomColor"))
-                    .background(Rectangle().stroke().foregroundColor(.secondary))
-                    .frame(width: 500, height:120).edgesIgnoringSafeArea(.all)
+                    .background(Rectangle().stroke(.tertiary))
+                    .frame(width: 500, height:50)
                
                 Spacer()
             Image("notification-bell")
