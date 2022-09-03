@@ -11,6 +11,10 @@ enum Query: String,CaseIterable{
     case yoga, gymnastics
 }
 
+enum Query2: String, CaseIterable{
+    case strength, balance, flexiblility
+}
+
 struct ResponseBody: Decodable {
     var page: Int
     var perPage: Int

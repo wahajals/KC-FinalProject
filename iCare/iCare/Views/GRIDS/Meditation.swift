@@ -18,6 +18,7 @@ struct Meditation: View {
                     searchQuery in
                     QueryTag(query: searchQuery, isSelected: false)
                 }
+                .padding()
             }
             ScrollView{
                 

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ConsultDoctor: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack{
+            Text("")
+        }
     }
 }
 
