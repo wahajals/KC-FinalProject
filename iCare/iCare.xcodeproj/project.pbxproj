@@ -10,7 +10,6 @@
 		3503E68E28C3AA3800A29453 /* QueryTag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E68D28C3AA3800A29453 /* QueryTag2.swift */; };
 		3503E69828C3D74400A29453 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E69728C3D74400A29453 /* Doctors.swift */; };
 		3503E69A28C3E7EB00A29453 /* Lifestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E69928C3E7EB00A29453 /* Lifestyle.swift */; };
-		3503E69C28C40F9100A29453 /* Awareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E69B28C40F9100A29453 /* Awareness.swift */; };
 		3524B8B528C25C8500DB5A1B /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B428C25C8500DB5A1B /* Exercises.swift */; };
 		3524B8B728C25C9F00DB5A1B /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B628C25C9F00DB5A1B /* Podcast.swift */; };
 		3524B8B928C25CBA00DB5A1B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B828C25CBA00DB5A1B /* Music.swift */; };
@@ -27,6 +26,11 @@
 		352CF7AA28C294D900AEB1C5 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7A928C294D900AEB1C5 /* VideoCard.swift */; };
 		352CF7B028C2A45400AEB1C5 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 352CF7AF28C2A45400AEB1C5 /* videoData.json */; };
 		352CF7B428C2AC3B00AEB1C5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7B328C2AC3B00AEB1C5 /* ModelData.swift */; };
+		354768A928C423C900AD2AE3 /* AwarenessDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768A828C423C900AD2AE3 /* AwarenessDetails.swift */; };
+		354768AB28C4242C00AD2AE3 /* DoctorsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768AA28C4242C00AD2AE3 /* DoctorsDetails.swift */; };
+		354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */; };
+		354768B128C4578B00AD2AE3 /* lifestyleDetails2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768B028C4578B00AD2AE3 /* lifestyleDetails2.swift */; };
+		354768B628C45AEB00AD2AE3 /* lifestyleinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */; };
 		356DCC3428C128A700E92F61 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3328C128A700E92F61 /* Meditation.swift */; };
 		356DCC3628C13D4200E92F61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3528C13D4200E92F61 /* Menu.swift */; };
 		356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */; };
@@ -54,7 +58,6 @@
 		3503E68D28C3AA3800A29453 /* QueryTag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag2.swift; sourceTree = "<group>"; };
 		3503E69728C3D74400A29453 /* Doctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
 		3503E69928C3E7EB00A29453 /* Lifestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifestyle.swift; sourceTree = "<group>"; };
-		3503E69B28C40F9100A29453 /* Awareness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awareness.swift; sourceTree = "<group>"; };
 		3524B8B428C25C8500DB5A1B /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		3524B8B628C25C9F00DB5A1B /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		3524B8B828C25CBA00DB5A1B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
@@ -71,6 +74,11 @@
 		352CF7A928C294D900AEB1C5 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
 		352CF7AF28C2A45400AEB1C5 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoData.json; path = ../../../../../../../Downloads/videoData.json; sourceTree = "<group>"; };
 		352CF7B328C2AC3B00AEB1C5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		354768A828C423C900AD2AE3 /* AwarenessDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessDetails.swift; sourceTree = "<group>"; };
+		354768AA28C4242C00AD2AE3 /* DoctorsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsDetails.swift; sourceTree = "<group>"; };
+		354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsInfo.swift; sourceTree = "<group>"; };
+		354768B028C4578B00AD2AE3 /* lifestyleDetails2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifestyleDetails2.swift; sourceTree = "<group>"; };
+		354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifestyleinfo.swift; sourceTree = "<group>"; };
 		356DCC3328C128A700E92F61 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
 		356DCC3528C13D4200E92F61 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
@@ -126,8 +134,8 @@
 				3524B8B828C25CBA00DB5A1B /* Music.swift */,
 				3524B8BA28C25CD100DB5A1B /* Awareness.swift */,
 				3524B8BC28C25CE200DB5A1B /* Advices.swift */,
-				3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */,
-				3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */,
+				354768AF28C4495D00AD2AE3 /* Consultation */,
+				354768B728C46CEB00AD2AE3 /* Healthy */,
 				3524B8C628C25D7C00DB5A1B /* Calendar.swift */,
 				3524B8C828C25D8F00DB5A1B /* HealthTracker.swift */,
 				3524B8CA28C25DA500DB5A1B /* Products.swift */,
@@ -144,6 +152,26 @@
 				352CF7A928C294D900AEB1C5 /* VideoCard.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		354768AF28C4495D00AD2AE3 /* Consultation */ = {
+			isa = PBXGroup;
+			children = (
+				3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */,
+				354768AA28C4242C00AD2AE3 /* DoctorsDetails.swift */,
+				354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */,
+			);
+			path = Consultation;
+			sourceTree = "<group>";
+		};
+		354768B728C46CEB00AD2AE3 /* Healthy */ = {
+			isa = PBXGroup;
+			children = (
+				3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */,
+				354768B028C4578B00AD2AE3 /* lifestyleDetails2.swift */,
+				354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */,
+			);
+			path = Healthy;
 			sourceTree = "<group>";
 		};
 		356DCC3F28C17A9A00E92F61 /* MENU */ = {
@@ -170,7 +198,7 @@
 				352CF7B328C2AC3B00AEB1C5 /* ModelData.swift */,
 				3503E69728C3D74400A29453 /* Doctors.swift */,
 				3503E69928C3E7EB00A29453 /* Lifestyle.swift */,
-				3503E69B28C40F9100A29453 /* Awareness.swift */,
+				354768A828C423C900AD2AE3 /* AwarenessDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,6 +350,7 @@
 				35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */,
 				356DCC3C28C1419700E92F61 /* SideMenu.swift in Sources */,
 				359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */,
+				354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */,
 				352CF7AA28C294D900AEB1C5 /* VideoCard.swift in Sources */,
 				3524B8BD28C25CE200DB5A1B /* Advices.swift in Sources */,
 				3524B8C728C25D7C00DB5A1B /* Calendar.swift in Sources */,
@@ -329,6 +358,7 @@
 				3524B8B928C25CBA00DB5A1B /* Music.swift in Sources */,
 				359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */,
 				3524B8B728C25C9F00DB5A1B /* Podcast.swift in Sources */,
+				354768AB28C4242C00AD2AE3 /* DoctorsDetails.swift in Sources */,
 				352CF7B428C2AC3B00AEB1C5 /* ModelData.swift in Sources */,
 				3524B8CD28C25DB200DB5A1B /* Community.swift in Sources */,
 				35DE3D1F28BFED1000A554D1 /* ProfileView.swift in Sources */,
@@ -336,6 +366,7 @@
 				3503E69A28C3E7EB00A29453 /* Lifestyle.swift in Sources */,
 				356DCC3E28C15AE400E92F61 /* LoginSignUpView.swift in Sources */,
 				35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */,
+				354768B128C4578B00AD2AE3 /* lifestyleDetails2.swift in Sources */,
 				356DCC3A28C1416800E92F61 /* SideMenuOptionView.swift in Sources */,
 				3524B8CB28C25DA500DB5A1B /* Products.swift in Sources */,
 				356DCC3428C128A700E92F61 /* Meditation.swift in Sources */,
@@ -344,10 +375,11 @@
 				3524B8C328C25D3C00DB5A1B /* LIfestyle.swift in Sources */,
 				35DE3D1B28BFECEB00A554D1 /* NotificationsView.swift in Sources */,
 				3524B8C928C25D8F00DB5A1B /* HealthTracker.swift in Sources */,
+				354768B628C45AEB00AD2AE3 /* lifestyleinfo.swift in Sources */,
+				354768A928C423C900AD2AE3 /* AwarenessDetails.swift in Sources */,
 				35DE3D2128BFFBF300A554D1 /* Grids.swift in Sources */,
 				35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */,
 				352CF7A828C2927600AEB1C5 /* VideoManager.swift in Sources */,
-				3503E69C28C40F9100A29453 /* Awareness.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

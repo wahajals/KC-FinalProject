@@ -10,7 +10,6 @@ import Foundation
 struct lifestyle: Identifiable{
     let id = UUID()
     var name: String
-    var image: String
     var types: [String]
     var prices: [Int]
     var url: String
@@ -18,21 +17,20 @@ struct lifestyle: Identifiable{
 
 let lifestyleDate = [
 //    Healthy Food Companies
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-//    Gym
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-//   Courses
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
-    lifestyle(name: "", image: "", types: [""], prices: [0], url: ""),
+    lifestyle(name: "DietBux", types: ["Diet","Two Meals", "Lifestyle","Low Carb", "Fitness","Athlete","Keto","Vegetarian"], prices: [174,144,184,174,194,194,194,164], url: "https://www.instagram.com/dietbux/"),
+    lifestyle(name: "DietStation", types: ["The Diet","Lifestyle","Bodybuilding"], prices: [179,189,199,], url: "https://www.instagram.com/dietstation/"),
+    lifestyle(name: "DietDone", types: ["Diet Plan","Diet Plus","Body Building",""], prices: [169,179,189], url: "https://www.instagram.com/dietdone/"),
+    lifestyle(name: "DietCare", types: ["Slim Down","MediCare","Five A Week","Lifestyle","Weigh Up"], prices: [220,249,195,249,275], url: "https://www.instagram.com/thedietcare/"),
+    lifestyle(name: "Tuning", types: ["Lose it","Build it"], prices: [159,175], url: "https://www.instagram.com/tuningkw/"),
+    //    Gym
+          lifestyle(name: "Spark Athletic", types: ["One of The Best Health Club"], prices: [0], url: "https://www.sparkathletic.com"),
+          lifestyle(name: "Oxygen Gym", types: ["One of The Best Health Club"], prices: [0], url: "https://www.instagram.com/o2_gyms/"),
+          lifestyle(name: "Platinum Gym", types: ["One of The Best Health Club"], prices: [0], url: "https://www.platinumkw.com"),
+          lifestyle(name: "Flare Fitness", types: ["One of The Best Health Club"], prices: [0], url: "https://www.flare.fitness"),
+          lifestyle(name: "The Champion", types: ["One of The Best Health Club"], prices: [0], url: "https://www.instagram.com/thechampion.women/"),
+    //   Courses
+          lifestyle(name: "Loyac", types: ["Life & Teaching skills courses"], prices: [0], url: "https://www.instagram.com/loyackuwait/"),
+          lifestyle(name: "Injaz", types: ["Life & Teaching skills courses"], prices: [0], url: "https://www.instagram.com/injaz_kuwait/"),
+          lifestyle(name: "Youth Public Authority", types: ["Life & Teaching skills courses"], prices: [0], url: "https://www.instagram.com/ypakwt/"),
 ]
+
