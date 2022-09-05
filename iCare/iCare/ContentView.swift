@@ -29,8 +29,7 @@ struct ContentView: View {
                  }))
             }
         .onAppear {
-            isShowing = false
-        }
+            isShowing = false        }
         }
         }
     }

@@ -30,11 +30,7 @@ struct lifestyleinfo: View {
                     .bold()
                     .foregroundColor(.white)
                     .padding()
-                HStack{
-                    Button("For Further Information") {
-                        openURL(URL(string: mylifestyle.url)!)
-                    }
-                }
+               
                     .buttonStyle(.borderedProminent)
                     .buttonBorderShape(.roundedRectangle(radius: 20))
                     .foregroundColor(.black)
@@ -73,9 +69,21 @@ struct lifestyleinfo: View {
                                     .font(.title3)
                                     .padding()
                             }
+                           
                         }
+                       
                 }
+              
                 }.frame(width: 400, height:100)
+                HStack{
+                    Button("For Further Information") {
+                        openURL(URL(string: mylifestyle.url)!)
+                    } .buttonStyle(.borderedProminent)
+                        .buttonBorderShape(.roundedRectangle(radius: 20))
+                        .foregroundColor(.black)
+                        .accentColor(.white)
+                        .padding()
+                }
             }
         }
     }
@@ -83,6 +91,7 @@ struct lifestyleinfo: View {
 
 struct lifestyleinfo_Previews: PreviewProvider {
     static var previews: some View {
-        lifestyleinfo(mylifestyle: lifestyle(name: "DietBux", types: ["Diet","Two Meals", "Lifestyle","Low Carb", "Fitness","Athlete","Keto","Vegetarian"], prices: [174,144,184,174,194,194,194,164], url: "https://www.instagram.com/dietbux/"))
+        lifestyleinfo(mylifestyle: lifestyle(name: "DietBux", types: ["Diet","Two Meals", "Lifestyle","Low Carb", "Fitness","Athlete","Keto","Vegetarian"], title: "Healthy Food", prices: [174,144,184,174,194,194,194,164], url: "https://www.instagram.com/dietbux/"))
     }
 }
+

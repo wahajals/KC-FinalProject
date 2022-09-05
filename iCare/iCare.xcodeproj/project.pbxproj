@@ -11,10 +11,7 @@
 		3503E69828C3D74400A29453 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E69728C3D74400A29453 /* Doctors.swift */; };
 		3503E69A28C3E7EB00A29453 /* Lifestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503E69928C3E7EB00A29453 /* Lifestyle.swift */; };
 		3524B8B528C25C8500DB5A1B /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B428C25C8500DB5A1B /* Exercises.swift */; };
-		3524B8B728C25C9F00DB5A1B /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B628C25C9F00DB5A1B /* Podcast.swift */; };
-		3524B8B928C25CBA00DB5A1B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8B828C25CBA00DB5A1B /* Music.swift */; };
 		3524B8BB28C25CD100DB5A1B /* Awareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8BA28C25CD100DB5A1B /* Awareness.swift */; };
-		3524B8BD28C25CE200DB5A1B /* Advices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8BC28C25CE200DB5A1B /* Advices.swift */; };
 		3524B8BF28C25D0700DB5A1B /* ConsultDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */; };
 		3524B8C328C25D3C00DB5A1B /* LIfestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */; };
 		3524B8C728C25D7C00DB5A1B /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8C628C25D7C00DB5A1B /* Calendar.swift */; };
@@ -31,6 +28,9 @@
 		354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */; };
 		354768B128C4578B00AD2AE3 /* lifestyleDetails2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768B028C4578B00AD2AE3 /* lifestyleDetails2.swift */; };
 		354768B628C45AEB00AD2AE3 /* lifestyleinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */; };
+		354768BA28C46E5600AD2AE3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 354768B928C46E5600AD2AE3 /* FirebaseAuth */; };
+		354768BC28C46E5600AD2AE3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 354768BB28C46E5600AD2AE3 /* FirebaseFirestore */; };
+		354768BE28C46E5600AD2AE3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 354768BD28C46E5600AD2AE3 /* FirebaseStorage */; };
 		356DCC3428C128A700E92F61 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3328C128A700E92F61 /* Meditation.swift */; };
 		356DCC3628C13D4200E92F61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3528C13D4200E92F61 /* Menu.swift */; };
 		356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */; };
@@ -59,10 +59,7 @@
 		3503E69728C3D74400A29453 /* Doctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
 		3503E69928C3E7EB00A29453 /* Lifestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifestyle.swift; sourceTree = "<group>"; };
 		3524B8B428C25C8500DB5A1B /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
-		3524B8B628C25C9F00DB5A1B /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
-		3524B8B828C25CBA00DB5A1B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		3524B8BA28C25CD100DB5A1B /* Awareness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awareness.swift; sourceTree = "<group>"; };
-		3524B8BC28C25CE200DB5A1B /* Advices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advices.swift; sourceTree = "<group>"; };
 		3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultDoctor.swift; sourceTree = "<group>"; };
 		3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfestyle.swift; sourceTree = "<group>"; };
 		3524B8C628C25D7C00DB5A1B /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
@@ -79,6 +76,7 @@
 		354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsInfo.swift; sourceTree = "<group>"; };
 		354768B028C4578B00AD2AE3 /* lifestyleDetails2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifestyleDetails2.swift; sourceTree = "<group>"; };
 		354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifestyleinfo.swift; sourceTree = "<group>"; };
+		354768C528C4749900AD2AE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		356DCC3328C128A700E92F61 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
 		356DCC3528C13D4200E92F61 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
@@ -108,6 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354768BA28C46E5600AD2AE3 /* FirebaseAuth in Frameworks */,
+				354768BC28C46E5600AD2AE3 /* FirebaseFirestore in Frameworks */,
+				354768BE28C46E5600AD2AE3 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +131,7 @@
 			children = (
 				356DCC3328C128A700E92F61 /* Meditation.swift */,
 				3524B8B428C25C8500DB5A1B /* Exercises.swift */,
-				3524B8B628C25C9F00DB5A1B /* Podcast.swift */,
-				3524B8B828C25CBA00DB5A1B /* Music.swift */,
 				3524B8BA28C25CD100DB5A1B /* Awareness.swift */,
-				3524B8BC28C25CE200DB5A1B /* Advices.swift */,
 				354768AF28C4495D00AD2AE3 /* Consultation */,
 				354768B728C46CEB00AD2AE3 /* Healthy */,
 				3524B8C628C25D7C00DB5A1B /* Calendar.swift */,
@@ -226,6 +224,7 @@
 		359F3F6728BD1CE80011F18C = {
 			isa = PBXGroup;
 			children = (
+				354768C528C4749900AD2AE3 /* GoogleService-Info.plist */,
 				359F3F7228BD1CE90011F18C /* iCare */,
 				359F3F7128BD1CE90011F18C /* Products */,
 			);
@@ -279,6 +278,9 @@
 			);
 			name = iCare;
 			packageProductDependencies = (
+				354768B928C46E5600AD2AE3 /* FirebaseAuth */,
+				354768BB28C46E5600AD2AE3 /* FirebaseFirestore */,
+				354768BD28C46E5600AD2AE3 /* FirebaseStorage */,
 			);
 			productName = iCare;
 			productReference = 359F3F7028BD1CE90011F18C /* iCare.app */;
@@ -310,6 +312,7 @@
 			mainGroup = 359F3F6728BD1CE80011F18C;
 			packageReferences = (
 				3524B8E128C279C700DB5A1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				354768B828C46E5600AD2AE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 359F3F7128BD1CE90011F18C /* Products */;
 			projectDirPath = "";
@@ -352,12 +355,9 @@
 				359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */,
 				354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */,
 				352CF7AA28C294D900AEB1C5 /* VideoCard.swift in Sources */,
-				3524B8BD28C25CE200DB5A1B /* Advices.swift in Sources */,
 				3524B8C728C25D7C00DB5A1B /* Calendar.swift in Sources */,
 				35DE3D1928BFECC200A554D1 /* HomeIView.swift in Sources */,
-				3524B8B928C25CBA00DB5A1B /* Music.swift in Sources */,
 				359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */,
-				3524B8B728C25C9F00DB5A1B /* Podcast.swift in Sources */,
 				354768AB28C4242C00AD2AE3 /* DoctorsDetails.swift in Sources */,
 				352CF7B428C2AC3B00AEB1C5 /* ModelData.swift in Sources */,
 				3524B8CD28C25DB200DB5A1B /* Community.swift in Sources */,
@@ -590,7 +590,33 @@
 				kind = branch;
 			};
 		};
+		354768B828C46E5600AD2AE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		354768B928C46E5600AD2AE3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3524B8E128C279C700DB5A1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		354768BB28C46E5600AD2AE3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3524B8E128C279C700DB5A1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		354768BD28C46E5600AD2AE3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3524B8E128C279C700DB5A1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 359F3F6828BD1CE80011F18C /* Project object */;
 }

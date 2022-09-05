@@ -11,6 +11,7 @@ struct HomeIView: View {
     private let adaptiveColumns = [
         GridItem(.adaptive(minimum: 170))
     ]
+    @State var Tap = ""
     var body: some View {
         NavigationView{
             VStack{
@@ -60,16 +61,14 @@ struct HomeIView: View {
                                     .frame(width:170, height:170)
                                     .font(.system(.title3))
                                     .foregroundColor(.white)
-                                
-                                    ForEach(myGrids) { grid in
-                                        NavigationLink {
-                                            Meditation()
-                                        } label: {
-                                            Text(" ")
-                                        }
+                                ForEach(myGrids) { grid in
+                                    NavigationLink {
+                                        ConsultDoctor()
+                                    } label: {
+                                        Text("")
+                                            .frame(width:170, height: 170)
                                     }
-                                    
-                                
+                                }
                             }
                         }
                         

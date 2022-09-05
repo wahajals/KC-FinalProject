@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ConsultDoctor: View {
+    private let Columns = [
+        GridItem(.adaptive(minimum: 170))
+    ]
+    @State var Tap = ""
     var body: some View {
         NavigationView{
             ZStack{
@@ -20,21 +24,43 @@ struct ConsultDoctor: View {
                     .ignoresSafeArea()
                     .background(.white)
                     .blur(radius: 5)
-                List{
-                    
+                ScrollView{
+                    LazyVGrid(columns:Columns, spacing: 20){
                         ForEach(DoctorsData) { Doctor in
-                            NavigationLink {
-                                DoctorsInfo(myDoctors: Doctor)
-                            } label: {
-                                DoctorsDetails(Doctors: Doctor.name)
-                            }
-                            
-                        }
+                            ZStack{
+                                Rectangle()
+                                    .frame(width: 180, height:180)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(25)
+                                    .shadow(radius: 10)
+                                Image(Doctor.name)
+                                    .resizable()
+                                    .frame(width: 180, height: 180)
+                                    .cornerRadius(25)
+                                Text(Doctor.name)
+                                    .bold()
+                                    .frame(width:180, height:120, alignment: .bottom)
+                                    .foregroundColor(.primary)
+                                Text(Doctor.types)
+                                    .bold()
+                                    .frame(width:170, height:170, alignment: .bottom)
+                                    .foregroundColor(.primary)
+                               
+                                ForEach(DoctorsData) { Doctors in
+                                    NavigationLink {
+                                        DoctorsInfo( myDoctors: Doctor)
+                                    } label: {
+                                        Text("")
+                                            .frame(width: 170, height:170)
+                                          
+                                    }
+                                }
 
+                            }
+                         
+                            }
+                        }
                     }
-                
-                
-                  
             }.opacity(0.8)
                 .navigationTitle("Consult A Doctor")
         }

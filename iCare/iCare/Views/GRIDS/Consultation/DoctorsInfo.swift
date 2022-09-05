@@ -25,7 +25,7 @@ struct DoctorsInfo: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
-                    .frame(width: 250, height: 250)
+                    .frame(width: 200, height: 200)
                 Text(myDoctors.name)
                     .font(.title)
                     .bold()
@@ -47,14 +47,14 @@ struct DoctorsInfo: View {
                     .foregroundColor(.black)
                     .accentColor(.white)
                     .padding()
-                    
                 }
+              
                 Text("Diagnosis & Management of :")
                     .bold()
-                    .font(.title)
+                    .font(.title2)
                     .foregroundColor(.black)
+
                 ScrollView{
-                    
                     VStack{
                         ForEach(myDoctors.Speciality, id: \.self) { speciality in
                             VStack{
@@ -66,7 +66,7 @@ struct DoctorsInfo: View {
                             }
                         }
                     }
-                }
+                }.padding()
                 Spacer()
             }
             
@@ -77,6 +77,6 @@ struct DoctorsInfo: View {
 
 struct DoctorsInfo_Previews: PreviewProvider {
     static var previews: some View {
-        DoctorsInfo(myDoctors: Doctors(name: "Dr. Khalid Al-Hassan",title: "Neurology Consultant & Vascular Specialist", Speciality: ["Stroke","Movement Disorder","Headache","Multiple Sclerosis","Muscle Diseases & Peripheral nerve disorder","Dementia"], url: "https://www.sih-kw.com/en/Find-Doctor/244/د-خالد-الحسن", number: ["1830003"]))
+        DoctorsInfo(myDoctors: Doctors(name: "Dr. Khalid Al-Hassan",title: "Neurology Consultant & Vascular Specialist", Speciality: ["Stroke","Movement Disorder","Headache","Multiple Sclerosis","Muscle Diseases & Peripheral nerve disorder","Dementia"], types: "Neurology", url: "https://www.sih-kw.com/en/Find-Doctor/244/Dr-Khalid-Al-Hassan", number: ["1830003"]))
     }
 }
