@@ -9,9 +9,9 @@ import SwiftUI
 
 struct HomeIView: View {
     private let adaptiveColumns = [
-        GridItem(.adaptive(minimum: 170))
+        GridItem(.flexible(minimum: 170)),
+        GridItem(.flexible(minimum: 170)),
     ]
-    @State var Tap = ""
     var body: some View {
         NavigationView{
             VStack{
@@ -43,35 +43,90 @@ struct HomeIView: View {
                     .tabViewStyle(PageTabViewStyle())
                     
                     Spacer()
-                    LazyVGrid(columns: adaptiveColumns,spacing: 20){
-                        ForEach(myGrids) { grid in
+                    LazyVGrid(columns:adaptiveColumns, spacing: 20){
+                      
                             ZStack{
-                                Rectangle()
-                                    .frame(width: 170, height: 170)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(25)
-                                    .shadow(radius: 10)
-                                Image(grid.title)
-                                    .resizable()
-                                    .frame(width: 170, height: 170)
-                                    .blur(radius: 4)
-                                    .cornerRadius(25)
-                                Text(grid.title)
-                                    .bold()
-                                    .frame(width:170, height:170)
-                                    .font(.system(.title3))
-                                    .foregroundColor(.white)
-                                ForEach(myGrids) { grid in
-                                    NavigationLink {
-                                        ConsultDoctor()
-                                    } label: {
-                                        Text("")
-                                            .frame(width:170, height: 170)
-                                    }
+                                ExtractedView(myTitle: "Meditation")
+                                NavigationLink {
+                                    Meditation()
+                                } label: {
+                                    Text("")
+                                        .frame(width:170, height: 170)
                                 }
                             }
+                            ZStack{
+                                ExtractedView(myTitle: "Exercises")
+                                NavigationLink {
+                                    Exercises()
+                                } label: {
+                                    Text("")
+                                        .frame(width:170, height: 170)
+                                }
+                            }
+                        ZStack{
+                            ExtractedView(myTitle: "Awareness")
+                            NavigationLink {
+                                Awareness()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
                         }
-                        
+                        ZStack{
+                            ExtractedView(myTitle: "Consult A Doctor")
+                            NavigationLink {
+                                ConsultDoctor()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                        ZStack{
+                            ExtractedView(myTitle: "Lifestyle")
+                            NavigationLink {
+                                LIfestyle()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                        ZStack{
+                            ExtractedView(myTitle: "Calendar")
+                            NavigationLink {
+                                Calendar()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                        ZStack{
+                            ExtractedView(myTitle: "Health Tracker")
+                            NavigationLink {
+                                HealthTracker()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                        ZStack{
+                            ExtractedView(myTitle: "Products")
+                            NavigationLink {
+                                Products()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                        ZStack{
+                            ExtractedView(myTitle: "Community")
+                            NavigationLink {
+                                Community()
+                            } label: {
+                                Text("")
+                                    .frame(width:170, height: 170)
+                            }
+                        }
+                    }
                     }
                     .navigationTitle("iCare")
                     .navigationBarTitleDisplayMode(.inline)
@@ -86,6 +141,30 @@ struct HomeIView_Previews: PreviewProvider {
         HomeIView()
     }
 }
+
+
+
+
+struct ExtractedView: View {
+    @State var myTitle: String
+    var body: some View {
+        ZStack{
+            Rectangle()
+                .frame(width: 170, height: 170)
+                .foregroundColor(.white)
+                .cornerRadius(25)
+                .shadow(radius: 10)
+            Image(myTitle)
+                .resizable()
+                .frame(width: 170, height: 170)
+                .blur(radius: 4)
+                .cornerRadius(25)
+            Text(myTitle)
+                .bold()
+                .frame(width:170, height:170)
+                .font(.system(.title3))
+                .foregroundColor(.white)
+       
+        }
+    }
 }
-
-

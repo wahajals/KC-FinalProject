@@ -1,5 +1,5 @@
 //
-//  LIfestyle.swift
+//  Awareness.swift
 //  iCare
 //
 //  Created by WSS on 02/09/2022.
@@ -7,16 +7,21 @@
 
 import SwiftUI
 
-struct LIfestyle: View {
+struct Awareness: View {
     private let Columns = [
         GridItem(.adaptive(minimum: 170))
     ]
     var body: some View {
         NavigationView{
             ZStack{
+                Image("Awareness")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .background(.white)
+                    .blur(radius: 8)
                 ScrollView{
                     LazyVGrid(columns:Columns, spacing: 20){
-                        ForEach(lifestyleDate) { Data in
+                        ForEach(AwarenessData) { Data in
                             ZStack{
                                 Rectangle()
                                     .frame(width: 180, height:180)
@@ -25,36 +30,35 @@ struct LIfestyle: View {
                                     .shadow(radius: 10)
                                 Image(Data.name)
                                     .resizable()
-                                    .frame(width: 180, height: 180)
-                                    .blur(radius: 4)
+                                    .frame(width: 170, height: 170)
+                                    .blur(radius: 2)
                                     .cornerRadius(25)
-                                Text(Data.title)
+                                Text(Data.category)
                                     .bold()
-                                    .frame(width:180, height:160, alignment: .bottom)
+                                    .frame(width:180, height:150, alignment: .bottom)
                                     .foregroundColor(.black)
-                                    .font(.title2)
-                                ForEach(lifestyleDate) { Datas in
+                                    .font(.title3)
+                                ForEach(AwarenessData) { Datas in
                                     NavigationLink {
-                                       lifestyleinfo(mylifestyle: Data)
+                                        AwarenessInfo(myAwareness: Data)
                                     } label: {
                                         Text("")
                                             .frame(width: 170, height:170)
-                                          
                                     }
+                                    
                                 }
-
+                                
                             }
-                         
-                            }
-                        }
+                        }.navigationTitle("Awareness")
                     }
-            }.navigationTitle("LifeStyle")
+                }
+            }
         }
     }
 }
 
-struct LIfestyle_Previews: PreviewProvider {
+struct Awareness_Previews: PreviewProvider {
     static var previews: some View {
-        LIfestyle()
+        Awareness()
     }
 }

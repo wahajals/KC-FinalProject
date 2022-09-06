@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SideMenuHeaderView: View {
+    @Binding var isShowing: Bool
     var body: some View {
         VStack(alignment: .leading){
             Image("user")
@@ -25,16 +26,20 @@ struct SideMenuHeaderView: View {
                 .padding(.bottom, 24)
             HStack{
                 Spacer()
+                    .padding()
             }
-          Spacer()
-            
+           
+            Spacer()
+               
+                
+        }.foregroundColor(.white)
+//            .padding()
         }
-        .padding()
     }
-}
+
 
 struct SideMenuHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        SideMenuHeaderView()
+        SideMenuHeaderView(isShowing: .constant(true))
     }
 }

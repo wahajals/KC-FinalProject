@@ -1,13 +1,13 @@
 //
-//  LIfestyle.swift
+//  ProductsViewing.swift
 //  iCare
 //
-//  Created by WSS on 02/09/2022.
+//  Created by WSS on 06/09/2022.
 //
 
 import SwiftUI
 
-struct LIfestyle: View {
+struct ProductsViewing: View {
     private let Columns = [
         GridItem(.adaptive(minimum: 170))
     ]
@@ -15,8 +15,8 @@ struct LIfestyle: View {
         NavigationView{
             ZStack{
                 ScrollView{
-                    LazyVGrid(columns:Columns, spacing: 20){
-                        ForEach(lifestyleDate) { Data in
+                    LazyVGrid(columns:Columns,spacing: 20){
+                        ForEach(ProductsData) { Data in
                             ZStack{
                                 Rectangle()
                                     .frame(width: 180, height:180)
@@ -25,36 +25,28 @@ struct LIfestyle: View {
                                     .shadow(radius: 10)
                                 Image(Data.name)
                                     .resizable()
-                                    .frame(width: 180, height: 180)
-                                    .blur(radius: 4)
+                                    .frame(width: 150, height: 150)
+                                    .blur(radius: 2)
                                     .cornerRadius(25)
-                                Text(Data.title)
-                                    .bold()
-                                    .frame(width:180, height:160, alignment: .bottom)
-                                    .foregroundColor(.black)
-                                    .font(.title2)
-                                ForEach(lifestyleDate) { Datas in
+                                ForEach(ProductsData) { product in
                                     NavigationLink {
-                                       lifestyleinfo(mylifestyle: Data)
+                                        ProductsInfo(myProducts: Data)
                                     } label: {
                                         Text("")
                                             .frame(width: 170, height:170)
-                                          
                                     }
                                 }
-
-                            }
-                         
                             }
                         }
-                    }
-            }.navigationTitle("LifeStyle")
+                    }.navigationTitle("Migraine Products")
+                }
+            }
         }
     }
-}
 
-struct LIfestyle_Previews: PreviewProvider {
+struct ProductsViewing_Previews: PreviewProvider {
     static var previews: some View {
-        LIfestyle()
+        ProductsViewing()
     }
+}
 }

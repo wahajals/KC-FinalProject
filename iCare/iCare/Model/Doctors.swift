@@ -28,7 +28,10 @@ struct Doctors: Identifiable{
     Doctors(name: "Dr. Khalid Al-Hassan",title: "Neurology Consultant & Vascular Specialist", Speciality: ["Stroke","Movement Disorder","Headache","Multiple Sclerosis","Muscle Diseases & Peripheral nerve disorder","Dementia"], types: "Neurology", url: "https://www.sih-kw.com/en/Find-Doctor/244/Dr-Khalid-Al-Hassan", number: ["1830003"]),
 //
     Doctors(name: "Dr. Raed Al-Roughani",title: "Neruology Consultant & MS Specialist", Speciality: ["Headaches","Dizziness","Neck and back pain","Seizures & Epilepsy","Multiple Sclerosis","Muscle diseases","Movement disorders","Dementia disease"], types: "Neurology",url: "http://www.alseef-hospital.com/doctors/dr-raed-a-alroughani/", number: ["1881122"]),
-//    Psychs Doctors
-    Doctors(name: "Dr. Mariam Al-Awadhi",title: "Consultant Psychiatrist", Speciality: ["Mental Health Disorders"], types: "Mental Health", url: "https://www.mariamalawadhi.com", number: ["22269308","22269307"]),
-    Doctors(name: "Dr. Mohammad Alsuwaidan",title: "Consultant Psychiatrist", Speciality: ["Mental Health Disorders"], types: "Mental Health", url: "https://mindwellkw.com", number: ["22055334"]),
 ]
+
+let DoctorsData2 = [
+    //    Psychs Doctors
+        Doctors(name: "Dr. Mariam Al-Awadhi",title: "Consultant Psychiatrist", Speciality: ["Mental Health Disorders"], types: "Mental Health", url: "https://www.mariamalawadhi.com", number: ["22269308","22269307"]),
+        Doctors(name: "Dr. Mohammad Alsuwaidan",title: "Consultant Psychiatrist", Speciality: ["Mental Health Disorders"], types: "Mental Health", url: "https://mindwellkw.com", number: ["22055334"]),
+    ]

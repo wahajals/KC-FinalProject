@@ -8,69 +8,77 @@
 import SwiftUI
 
 struct ConsultDoctor: View {
-    private let Columns = [
-        GridItem(.adaptive(minimum: 170))
+    private let Columns2 = [
+        GridItem(.flexible(minimum: 170)),
+        GridItem(.flexible(minimum: 170)),
     ]
-    @State var Tap = ""
     var body: some View {
         NavigationView{
-            ZStack{
-//                LinearGradient(gradient: Gradient(colors: [Color.init("CustomColor"),Color.init("CustomColor2")]), startPoint: .top, endPoint: .bottom)
-//                    .ignoresSafeArea()
-//                    .background(.white)
-//                    .blur(radius: 10)
+            ZStack(alignment: .topLeading){
                 Image("Doctor")
                     .resizable()
                     .ignoresSafeArea()
                     .background(.white)
                     .blur(radius: 5)
-                ScrollView{
-                    LazyVGrid(columns:Columns, spacing: 20){
-                        ForEach(DoctorsData) { Doctor in
-                            ZStack{
-                                Rectangle()
-                                    .frame(width: 180, height:180)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(25)
-                                    .shadow(radius: 10)
-                                Image(Doctor.name)
-                                    .resizable()
-                                    .frame(width: 180, height: 180)
-                                    .cornerRadius(25)
-                                Text(Doctor.name)
-                                    .bold()
-                                    .frame(width:180, height:120, alignment: .bottom)
-                                    .foregroundColor(.primary)
-                                Text(Doctor.types)
-                                    .bold()
-                                    .frame(width:170, height:170, alignment: .bottom)
-                                    .foregroundColor(.primary)
-                               
-                                ForEach(DoctorsData) { Doctors in
-                                    NavigationLink {
-                                        DoctorsInfo( myDoctors: Doctor)
-                                    } label: {
-                                        Text("")
-                                            .frame(width: 170, height:170)
-                                          
-                                    }
-                                }
-
-                            }
-                         
-                            }
-                        }
+                LazyVGrid(columns:Columns2,spacing: 20){
+                    ZStack{
+                    ExtractedCView(myTilte: "Neurology")
+                    NavigationLink {
+                       DoctorsViewing()
+                    } label: {
+                        Text("")
+                            .frame(width: 170, height:170)
+                        
                     }
-            }.opacity(0.8)
-                .navigationTitle("Consult A Doctor")
+                }
+                    ZStack{
+                    ExtractedCView(myTilte: "Psychiatry")
+                    NavigationLink {
+                       DoctorViewing2()
+                    } label: {
+                        Text("")
+                            .frame(width: 170, height:170)
+                        
+                    }
+                }
+                }
+            }
+            .opacity(0.8)
+                           .navigationTitle("Consult A Doctor")
+                }
+               
+            }
         }
-           
-    }
-
-
+        
 struct ConsultDoctor_Previews: PreviewProvider {
     static var previews: some View {
         ConsultDoctor()
     }
 }
+
+
+struct ExtractedCView: View {
+    var myTilte: String
+    var body: some View {
+        ZStack {
+            Rectangle()
+                .frame(width: 180, height:180)
+                .foregroundColor(.white)
+                .cornerRadius(25)
+                .shadow(radius: 10)
+                .padding()
+            Image("Doctor")
+                .resizable()
+                .frame(width: 180, height: 180)
+                .blur(radius: 2)
+                .cornerRadius(25)
+                .padding()
+            Text(myTilte)
+                .bold()
+                .frame(width:180, height:150, alignment: .center)
+                .foregroundColor(.white)
+                .font(.title3)
+                .padding()
+        }
+    }
 }

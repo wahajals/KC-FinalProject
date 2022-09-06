@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView{
         ZStack {
             if isShowing {
-                SideMenuView()
+                SideMenuView(isShowing: $isShowing)
             }
             TabMenuView()
                 .cornerRadius(isShowing ? 20 : 10)
@@ -28,9 +28,9 @@ struct ContentView: View {
                          .foregroundColor(.init("CustomColor2"))
                  }))
             }
-        .onAppear {
+        .onDisappear {
             isShowing = false        }
-        }
+                }
         }
     }
 
