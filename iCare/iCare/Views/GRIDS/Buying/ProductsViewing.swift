@@ -28,6 +28,12 @@ struct ProductsViewing: View {
                                     .frame(width: 150, height: 150)
                                     .blur(radius: 2)
                                     .cornerRadius(25)
+                                Text(Data.name)
+                                    .font(.title3)
+                                    .bold()
+                                    .foregroundColor(.black)
+                                    .frame(width: 150, height: 170,alignment:.bottom)
+                                    .padding()
                                 ForEach(ProductsData) { product in
                                     NavigationLink {
                                         ProductsInfo(myProducts: Data)
