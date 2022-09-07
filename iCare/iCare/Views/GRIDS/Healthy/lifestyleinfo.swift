@@ -39,6 +39,7 @@ struct lifestyleinfo: View {
                 Text("OverView:")
                     .bold()
                     .font(.title)
+                ScrollView(.vertical){
                 ScrollView(.horizontal){
                     HStack {
                         ForEach(mylifestyle.types, id: \.self) { Data in
@@ -55,6 +56,7 @@ struct lifestyleinfo: View {
                         }
                   
                     }
+           
                 }.frame(width: 400, height:100)
                 Text("Prices:")
                     .bold()
@@ -75,15 +77,16 @@ struct lifestyleinfo: View {
                 }
               
                 }.frame(width: 400, height:100)
-                HStack{
-                    Button("For Further Information") {
-                        openURL(URL(string: mylifestyle.url)!)
-                    } .buttonStyle(.borderedProminent)
-                        .buttonBorderShape(.roundedRectangle(radius: 20))
-                        .foregroundColor(.black)
-                        .accentColor(.white)
-                        .padding()
-                }
+                    HStack{
+                        Button("For Further Information") {
+                            openURL(URL(string: mylifestyle.url)!)
+                        } .buttonStyle(.borderedProminent)
+                            .buttonBorderShape(.roundedRectangle(radius: 20))
+                            .foregroundColor(.black)
+                            .accentColor(.white)
+                            .padding()
+                    }
+            }
             }
         }
     }
