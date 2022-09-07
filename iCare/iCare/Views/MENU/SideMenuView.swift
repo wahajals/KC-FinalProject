@@ -42,7 +42,7 @@ struct SideMenuView: View {
                 HStack{
                 MenuView(myMenu: "person.2", title: "My Profile")
                 NavigationLink {
-                    ProfileView()
+                    loginSignUp()
                 } label: {
                     Text("")
                         .frame(width:100, height: 100)

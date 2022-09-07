@@ -15,24 +15,47 @@
 		3524B8BF28C25D0700DB5A1B /* ConsultDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */; };
 		3524B8C328C25D3C00DB5A1B /* LIfestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */; };
 		3524B8C728C25D7C00DB5A1B /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8C628C25D7C00DB5A1B /* Calendar.swift */; };
-		3524B8C928C25D8F00DB5A1B /* HealthTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8C828C25D8F00DB5A1B /* HealthTracker.swift */; };
 		3524B8CB28C25DA500DB5A1B /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8CA28C25DA500DB5A1B /* Products.swift */; };
 		3524B8CD28C25DB200DB5A1B /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B8CC28C25DB200DB5A1B /* Community.swift */; };
 		352CF7A628C290FC00AEB1C5 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7A528C290FB00AEB1C5 /* QueryTag.swift */; };
 		352CF7A828C2927600AEB1C5 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7A728C2927600AEB1C5 /* VideoManager.swift */; };
 		352CF7AA28C294D900AEB1C5 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7A928C294D900AEB1C5 /* VideoCard.swift */; };
-		352CF7B028C2A45400AEB1C5 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 352CF7AF28C2A45400AEB1C5 /* videoData.json */; };
 		352CF7B428C2AC3B00AEB1C5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CF7B328C2AC3B00AEB1C5 /* ModelData.swift */; };
+		353BC17E28C76C450044460A /* LifestyleViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC17D28C76C450044460A /* LifestyleViewing.swift */; };
+		353BC18028C76C6E0044460A /* LifestyleViewing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC17F28C76C6E0044460A /* LifestyleViewing2.swift */; };
+		353BC18228C76C7B0044460A /* LifestyleViewing3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC18128C76C7B0044460A /* LifestyleViewing3.swift */; };
+		353BC18528C78E190044460A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 353BC18428C78E190044460A /* FirebaseAuth */; };
+		353BC18728C78E190044460A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 353BC18628C78E190044460A /* FirebaseFirestore */; };
+		353BC18928C78E430044460A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 353BC18828C78E430044460A /* GoogleService-Info.plist */; };
+		353BC18B28C7A0010044460A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC18A28C7A0010044460A /* Login.swift */; };
+		353BC18F28C7A1230044460A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC18E28C7A1230044460A /* CustomTextField.swift */; };
+		353BC19328C7A33D0044460A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC19228C7A33D0044460A /* LoginViewModel.swift */; };
+		353BC19628C7C2520044460A /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC19528C7C2520044460A /* Diary.swift */; };
 		354768A928C423C900AD2AE3 /* AwarenessDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768A828C423C900AD2AE3 /* AwarenessDetails.swift */; };
 		354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */; };
 		354768B628C45AEB00AD2AE3 /* lifestyleinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */; };
-		356DCC3428C128A700E92F61 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3328C128A700E92F61 /* Meditation.swift */; };
 		356DCC3628C13D4200E92F61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3528C13D4200E92F61 /* Menu.swift */; };
 		356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */; };
 		356DCC3C28C1419700E92F61 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3B28C1419700E92F61 /* SideMenu.swift */; };
 		356DCC3E28C15AE400E92F61 /* LoginSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DCC3D28C15AE400E92F61 /* LoginSignUpView.swift */; };
 		3572271128BE90DB00060CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */; };
-		3572271728BE99D100060CD6 /* Chivo in Resources */ = {isa = PBXBuildFile; fileRef = 3572271628BE99D100060CD6 /* Chivo */; };
+		357F856228C80596003739DF /* HealthTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856128C80596003739DF /* HealthTrackerView.swift */; };
+		357F856428C83CC8003739DF /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856328C83CC8003739DF /* Meditation.swift */; };
+		357F856828C83DA8003739DF /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856728C83DA8003739DF /* MeditationView.swift */; };
+		357F856A28C84780003739DF /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856928C84780003739DF /* PlayerView.swift */; };
+		357F856C28C84A46003739DF /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856B28C84A46003739DF /* PlaybackControlButton.swift */; };
+		357F857028C8524B003739DF /* MeditationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F856F28C8524B003739DF /* MeditationViewModel.swift */; };
+		357F857228C85631003739DF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F857128C85631003739DF /* Extension.swift */; };
+		357F857428C8598B003739DF /* AudiouManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F857328C8598B003739DF /* AudiouManager.swift */; };
+		357F857628C85D0A003739DF /* serenity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F857528C85D0A003739DF /* serenity.mp3 */; };
+		357F857928C86216003739DF /* CustomFonts in Resources */ = {isa = PBXBuildFile; fileRef = 357F857828C86216003739DF /* CustomFonts */; };
+		357F857B28C88FAD003739DF /* spiritualenergies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F857A28C88FAD003739DF /* spiritualenergies.mp3 */; };
+		357F857D28C88FB6003739DF /* mindfulness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F857C28C88FB6003739DF /* mindfulness.mp3 */; };
+		357F857F28C88FBC003739DF /* oceanwave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F857E28C88FBC003739DF /* oceanwave.mp3 */; };
+		357F858128C88FC8003739DF /* linear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F858028C88FC8003739DF /* linear.mp3 */; };
+		357F858328C88FCF003739DF /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F858228C88FCF003739DF /* meditation.mp3 */; };
+		357F858528C88FD6003739DF /* catchmybreath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F858428C88FD6003739DF /* catchmybreath.mp3 */; };
+		357F858728C88FDB003739DF /* above.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357F858628C88FDB003739DF /* above.mp3 */; };
 		359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F3F7328BD1CE90011F18C /* iCareApp.swift */; };
 		359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F3F7528BD1CE90011F18C /* ContentView.swift */; };
 		359F3F7828BD1CEB0011F18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359F3F7728BD1CEB0011F18C /* Assets.xcassets */; };
@@ -63,24 +86,46 @@
 		3524B8BE28C25D0700DB5A1B /* ConsultDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultDoctor.swift; sourceTree = "<group>"; };
 		3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfestyle.swift; sourceTree = "<group>"; };
 		3524B8C628C25D7C00DB5A1B /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
-		3524B8C828C25D8F00DB5A1B /* HealthTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTracker.swift; sourceTree = "<group>"; };
 		3524B8CA28C25DA500DB5A1B /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		3524B8CC28C25DB200DB5A1B /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
 		352CF7A528C290FB00AEB1C5 /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
 		352CF7A728C2927600AEB1C5 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		352CF7A928C294D900AEB1C5 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
-		352CF7AF28C2A45400AEB1C5 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoData.json; path = ../../../../../../../Downloads/videoData.json; sourceTree = "<group>"; };
 		352CF7B328C2AC3B00AEB1C5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		353BC17D28C76C450044460A /* LifestyleViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleViewing.swift; sourceTree = "<group>"; };
+		353BC17F28C76C6E0044460A /* LifestyleViewing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleViewing2.swift; sourceTree = "<group>"; };
+		353BC18128C76C7B0044460A /* LifestyleViewing3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleViewing3.swift; sourceTree = "<group>"; };
+		353BC18828C78E430044460A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		353BC18A28C7A0010044460A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		353BC18E28C7A1230044460A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		353BC19228C7A33D0044460A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		353BC19528C7C2520044460A /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		354768A828C423C900AD2AE3 /* AwarenessDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessDetails.swift; sourceTree = "<group>"; };
 		354768AD28C429A200AD2AE3 /* DoctorsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsInfo.swift; sourceTree = "<group>"; };
 		354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifestyleinfo.swift; sourceTree = "<group>"; };
-		356DCC3328C128A700E92F61 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
 		356DCC3528C13D4200E92F61 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		356DCC3B28C1419700E92F61 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		356DCC3D28C15AE400E92F61 /* LoginSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpView.swift; sourceTree = "<group>"; };
 		3572271028BE90DB00060CD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3572271628BE99D100060CD6 /* Chivo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Chivo; path = ../../../../../../../../Downloads/Chivo; sourceTree = "<group>"; };
+		357F856128C80596003739DF /* HealthTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackerView.swift; sourceTree = "<group>"; };
+		357F856328C83CC8003739DF /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		357F856728C83DA8003739DF /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		357F856928C84780003739DF /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		357F856B28C84A46003739DF /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		357F856F28C8524B003739DF /* MeditationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewModel.swift; sourceTree = "<group>"; };
+		357F857128C85631003739DF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		357F857328C8598B003739DF /* AudiouManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiouManager.swift; sourceTree = "<group>"; };
+		357F857528C85D0A003739DF /* serenity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = serenity.mp3; sourceTree = "<group>"; };
+		357F857728C85E59003739DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		357F857828C86216003739DF /* CustomFonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomFonts; sourceTree = "<group>"; };
+		357F857A28C88FAD003739DF /* spiritualenergies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spiritualenergies.mp3; sourceTree = "<group>"; };
+		357F857C28C88FB6003739DF /* mindfulness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mindfulness.mp3; sourceTree = "<group>"; };
+		357F857E28C88FBC003739DF /* oceanwave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oceanwave.mp3; sourceTree = "<group>"; };
+		357F858028C88FC8003739DF /* linear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = linear.mp3; sourceTree = "<group>"; };
+		357F858228C88FCF003739DF /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		357F858428C88FD6003739DF /* catchmybreath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = catchmybreath.mp3; sourceTree = "<group>"; };
+		357F858628C88FDB003739DF /* above.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = above.mp3; sourceTree = "<group>"; };
 		359F3F7028BD1CE90011F18C /* iCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		359F3F7328BD1CE90011F18C /* iCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCareApp.swift; sourceTree = "<group>"; };
 		359F3F7528BD1CE90011F18C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353BC18528C78E190044460A /* FirebaseAuth in Frameworks */,
+				353BC18728C78E190044460A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,15 +175,19 @@
 		3524B8B328C25C2400DB5A1B /* GRIDS */ = {
 			isa = PBXGroup;
 			children = (
-				356DCC3328C128A700E92F61 /* Meditation.swift */,
+				357F856328C83CC8003739DF /* Meditation.swift */,
+				357F856728C83DA8003739DF /* MeditationView.swift */,
+				357F856928C84780003739DF /* PlayerView.swift */,
+				357F856B28C84A46003739DF /* PlaybackControlButton.swift */,
 				3524B8B428C25C8500DB5A1B /* Exercises.swift */,
 				35C3262628C698FC002F7CED /* New Group */,
 				354768AF28C4495D00AD2AE3 /* Consultation */,
 				354768B728C46CEB00AD2AE3 /* Healthy */,
 				3524B8C628C25D7C00DB5A1B /* Calendar.swift */,
-				3524B8C828C25D8F00DB5A1B /* HealthTracker.swift */,
+				353BC19428C7C2300044460A /* HealthTracker */,
 				35C3262D28C6C202002F7CED /* Buying */,
 				3524B8CC28C25DB200DB5A1B /* Community.swift */,
+				357F857828C86216003739DF /* CustomFonts */,
 			);
 			path = GRIDS;
 			sourceTree = "<group>";
@@ -149,6 +200,15 @@
 				352CF7A928C294D900AEB1C5 /* VideoCard.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		353BC19428C7C2300044460A /* HealthTracker */ = {
+			isa = PBXGroup;
+			children = (
+				353BC19528C7C2520044460A /* Diary.swift */,
+				357F856128C80596003739DF /* HealthTrackerView.swift */,
+			);
+			path = HealthTracker;
 			sourceTree = "<group>";
 		};
 		354768AF28C4495D00AD2AE3 /* Consultation */ = {
@@ -166,6 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				3524B8C228C25D3C00DB5A1B /* LIfestyle.swift */,
+				353BC17D28C76C450044460A /* LifestyleViewing.swift */,
+				353BC17F28C76C6E0044460A /* LifestyleViewing2.swift */,
+				353BC18128C76C7B0044460A /* LifestyleViewing3.swift */,
 				354768B528C45AEB00AD2AE3 /* lifestyleinfo.swift */,
 			);
 			path = Healthy;
@@ -178,6 +241,8 @@
 				356DCC3728C1412D00E92F61 /* SideMenuHeaderView.swift */,
 				356DCC3528C13D4200E92F61 /* Menu.swift */,
 				356DCC3D28C15AE400E92F61 /* LoginSignUpView.swift */,
+				353BC18A28C7A0010044460A /* Login.swift */,
+				353BC18E28C7A1230044460A /* CustomTextField.swift */,
 				35DE3D2628C0409400A554D1 /* ContactUsView.swift */,
 				35DE3D2428C0407900A554D1 /* OurMissionView.swift */,
 			);
@@ -196,6 +261,10 @@
 				3503E69928C3E7EB00A29453 /* Lifestyle.swift */,
 				354768A828C423C900AD2AE3 /* AwarenessDetails.swift */,
 				35C3262A28C6B950002F7CED /* ProductsDetails.swift */,
+				353BC19228C7A33D0044460A /* LoginViewModel.swift */,
+				357F856F28C8524B003739DF /* MeditationViewModel.swift */,
+				357F857128C85631003739DF /* Extension.swift */,
+				357F857328C8598B003739DF /* AudiouManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,17 +276,8 @@
 				3524B8B328C25C2400DB5A1B /* GRIDS */,
 				3524B8B228C25BDF00DB5A1B /* TABMENU */,
 				356DCC3F28C17A9A00E92F61 /* MENU */,
-				3572271528BE99B700060CD6 /* CustomFonts */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		3572271528BE99B700060CD6 /* CustomFonts */ = {
-			isa = PBXGroup;
-			children = (
-				3572271628BE99D100060CD6 /* Chivo */,
-			);
-			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 		359F3F6728BD1CE80011F18C = {
@@ -239,12 +299,22 @@
 		359F3F7228BD1CE90011F18C /* iCare */ = {
 			isa = PBXGroup;
 			children = (
+				357F857728C85E59003739DF /* Info.plist */,
+				353BC18828C78E430044460A /* GoogleService-Info.plist */,
 				359F3F7328BD1CE90011F18C /* iCareApp.swift */,
 				359F3F7528BD1CE90011F18C /* ContentView.swift */,
 				3572270F28BE904900060CD6 /* Views */,
 				352CF7A428C290C500AEB1C5 /* Components */,
 				3572270E28BE903100060CD6 /* Model */,
 				359F3F7728BD1CEB0011F18C /* Assets.xcassets */,
+				357F857528C85D0A003739DF /* serenity.mp3 */,
+				357F858628C88FDB003739DF /* above.mp3 */,
+				357F857A28C88FAD003739DF /* spiritualenergies.mp3 */,
+				357F858428C88FD6003739DF /* catchmybreath.mp3 */,
+				357F857C28C88FB6003739DF /* mindfulness.mp3 */,
+				357F858228C88FCF003739DF /* meditation.mp3 */,
+				357F857E28C88FBC003739DF /* oceanwave.mp3 */,
+				357F858028C88FC8003739DF /* linear.mp3 */,
 				359F3F7928BD1CEB0011F18C /* Preview Content */,
 			);
 			path = iCare;
@@ -253,7 +323,6 @@
 		359F3F7928BD1CEB0011F18C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				352CF7AF28C2A45400AEB1C5 /* videoData.json */,
 				359F3F7A28BD1CEB0011F18C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -295,6 +364,8 @@
 			);
 			name = iCare;
 			packageProductDependencies = (
+				353BC18428C78E190044460A /* FirebaseAuth */,
+				353BC18628C78E190044460A /* FirebaseFirestore */,
 			);
 			productName = iCare;
 			productReference = 359F3F7028BD1CE90011F18C /* iCare.app */;
@@ -327,6 +398,7 @@
 			packageReferences = (
 				3524B8E128C279C700DB5A1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				354768B828C46E5600AD2AE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				353BC18328C78E190044460A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 359F3F7128BD1CE90011F18C /* Products */;
 			projectDirPath = "";
@@ -343,10 +415,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3572271128BE90DB00060CD6 /* LaunchScreen.storyboard in Resources */,
+				357F858728C88FDB003739DF /* above.mp3 in Resources */,
+				357F857B28C88FAD003739DF /* spiritualenergies.mp3 in Resources */,
+				357F858528C88FD6003739DF /* catchmybreath.mp3 in Resources */,
+				357F858328C88FCF003739DF /* meditation.mp3 in Resources */,
 				359F3F7B28BD1CEB0011F18C /* Preview Assets.xcassets in Resources */,
-				3572271728BE99D100060CD6 /* Chivo in Resources */,
-				352CF7B028C2A45400AEB1C5 /* videoData.json in Resources */,
 				359F3F7828BD1CEB0011F18C /* Assets.xcassets in Resources */,
+				357F857628C85D0A003739DF /* serenity.mp3 in Resources */,
+				357F858128C88FC8003739DF /* linear.mp3 in Resources */,
+				357F857D28C88FB6003739DF /* mindfulness.mp3 in Resources */,
+				357F857F28C88FBC003739DF /* oceanwave.mp3 in Resources */,
+				357F857928C86216003739DF /* CustomFonts in Resources */,
+				353BC18928C78E430044460A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,21 +437,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353BC19328C7A33D0044460A /* LoginViewModel.swift in Sources */,
 				3503E68E28C3AA3800A29453 /* QueryTag2.swift in Sources */,
 				3524B8BF28C25D0700DB5A1B /* ConsultDoctor.swift in Sources */,
+				353BC19628C7C2520044460A /* Diary.swift in Sources */,
 				35DE3D1D28BFECFE00A554D1 /* SearchView.swift in Sources */,
 				3524B8B528C25C8500DB5A1B /* Exercises.swift in Sources */,
 				3524B8BB28C25CD100DB5A1B /* Awareness.swift in Sources */,
 				352CF7A628C290FC00AEB1C5 /* QueryTag.swift in Sources */,
+				353BC18028C76C6E0044460A /* LifestyleViewing2.swift in Sources */,
 				356DCC3828C1412D00E92F61 /* SideMenuHeaderView.swift in Sources */,
 				35DE3D2728C0409400A554D1 /* ContactUsView.swift in Sources */,
 				356DCC3C28C1419700E92F61 /* SideMenu.swift in Sources */,
 				359F3F7628BD1CE90011F18C /* ContentView.swift in Sources */,
 				354768AE28C429A200AD2AE3 /* DoctorsInfo.swift in Sources */,
 				352CF7AA28C294D900AEB1C5 /* VideoCard.swift in Sources */,
+				353BC18228C76C7B0044460A /* LifestyleViewing3.swift in Sources */,
 				3524B8C728C25D7C00DB5A1B /* Calendar.swift in Sources */,
 				35DE3D1928BFECC200A554D1 /* HomeIView.swift in Sources */,
 				359F3F7428BD1CE90011F18C /* iCareApp.swift in Sources */,
+				357F857028C8524B003739DF /* MeditationViewModel.swift in Sources */,
 				352CF7B428C2AC3B00AEB1C5 /* ModelData.swift in Sources */,
 				3524B8CD28C25DB200DB5A1B /* Community.swift in Sources */,
 				35DE3D1F28BFED1000A554D1 /* ProfileView.swift in Sources */,
@@ -381,22 +466,30 @@
 				35C3263528C6D5E9002F7CED /* DoctorViewing2.swift in Sources */,
 				35C3262828C69928002F7CED /* AwarenessInfo.swift in Sources */,
 				356DCC3E28C15AE400E92F61 /* LoginSignUpView.swift in Sources */,
+				357F856428C83CC8003739DF /* Meditation.swift in Sources */,
 				35DE3D2528C0407900A554D1 /* OurMissionView.swift in Sources */,
+				357F856A28C84780003739DF /* PlayerView.swift in Sources */,
 				3524B8CB28C25DA500DB5A1B /* Products.swift in Sources */,
-				356DCC3428C128A700E92F61 /* Meditation.swift in Sources */,
+				357F856228C80596003739DF /* HealthTrackerView.swift in Sources */,
 				35DE3D3128C056A500A554D1 /* SideMenuView.swift in Sources */,
+				357F857228C85631003739DF /* Extension.swift in Sources */,
 				356DCC3628C13D4200E92F61 /* Menu.swift in Sources */,
+				353BC18B28C7A0010044460A /* Login.swift in Sources */,
 				3524B8C328C25D3C00DB5A1B /* LIfestyle.swift in Sources */,
+				353BC17E28C76C450044460A /* LifestyleViewing.swift in Sources */,
 				35DE3D1B28BFECEB00A554D1 /* NotificationsView.swift in Sources */,
+				357F857428C8598B003739DF /* AudiouManager.swift in Sources */,
 				35C3263128C6C514002F7CED /* ProductsViewing.swift in Sources */,
-				3524B8C928C25D8F00DB5A1B /* HealthTracker.swift in Sources */,
 				354768B628C45AEB00AD2AE3 /* lifestyleinfo.swift in Sources */,
+				357F856828C83DA8003739DF /* MeditationView.swift in Sources */,
+				357F856C28C84A46003739DF /* PlaybackControlButton.swift in Sources */,
 				354768A928C423C900AD2AE3 /* AwarenessDetails.swift in Sources */,
 				35C3262F28C6C226002F7CED /* ProductsInfo.swift in Sources */,
 				35DE3D2128BFFBF300A554D1 /* Grids.swift in Sources */,
 				35DE3D2328C011E200A554D1 /* TabScrollView.swift in Sources */,
 				35C3262B28C6B950002F7CED /* ProductsDetails.swift in Sources */,
 				352CF7A828C2927600AEB1C5 /* VideoManager.swift in Sources */,
+				353BC18F28C7A1230044460A /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +620,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iCare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iCare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -556,6 +650,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iCare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iCare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -607,6 +702,14 @@
 				kind = branch;
 			};
 		};
+		353BC18328C78E190044460A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		354768B828C46E5600AD2AE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -616,6 +719,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		353BC18428C78E190044460A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353BC18328C78E190044460A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		353BC18628C78E190044460A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353BC18328C78E190044460A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 359F3F6828BD1CE80011F18C /* Project object */;
 }

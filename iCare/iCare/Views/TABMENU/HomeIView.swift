@@ -102,7 +102,7 @@ struct HomeIView: View {
                         ZStack{
                             ExtractedView(myTitle: "Health Tracker")
                             NavigationLink {
-                                HealthTracker()
+                                HealthTrackerView()
                             } label: {
                                 Text("")
                                     .frame(width:170, height: 170)
@@ -120,7 +120,7 @@ struct HomeIView: View {
                         ZStack{
                             ExtractedView(myTitle: "Community")
                             NavigationLink {
-                                Community()
+                                Login()
                             } label: {
                                 Text("")
                                     .frame(width:170, height: 170)

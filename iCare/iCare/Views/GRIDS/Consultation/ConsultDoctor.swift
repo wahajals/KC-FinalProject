@@ -15,11 +15,12 @@ struct ConsultDoctor: View {
     var body: some View {
         NavigationView{
             ZStack(alignment: .topLeading){
-                Image("Doctor")
-                    .resizable()
-                    .ignoresSafeArea()
-                    .background(.white)
-                    .blur(radius: 5)
+                Color.white
+//                Image("Doctor")
+//                    .resizable()
+//                    .ignoresSafeArea()
+//                    .background(.white)
+//                    .blur(radius: 5)
                 LazyVGrid(columns:Columns2,spacing: 20){
                     ZStack{
                     ExtractedCView(myTilte: "Neurology")

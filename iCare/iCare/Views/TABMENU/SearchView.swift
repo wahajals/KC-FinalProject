@@ -19,7 +19,7 @@ struct SearchView: View {
                     .shadow(radius: 5)
                     .foregroundColor(.init("CustomColor"))
                     .background(Rectangle().stroke(.tertiary))
-                    .frame(width: 500, height:50)
+                    .frame(width: 500, height:30)
                 Spacer()
             Image("loupe")
                 .resizable()

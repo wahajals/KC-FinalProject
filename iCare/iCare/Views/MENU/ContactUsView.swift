@@ -18,7 +18,7 @@ struct ContactUsView: View {
                 .shadow(radius: 5)
                 .foregroundColor(.init("CustomColor"))
                 .background(Rectangle().stroke(.tertiary))
-                .frame(width: 500, height:40)
+                .frame(width: 500, height:1)
                 .padding()
                 .padding(.bottom,50)
             Text("Contact US:")
