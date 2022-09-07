@@ -22,9 +22,9 @@ struct DoctorsInfo: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
-                    .frame(width: 200, height: 200)
+                    .frame(width: 150, height: 150)
                 Text(myDoctors.name)
-                    .font(.title)
+                    .font(.title2)
                     .bold()
                     .foregroundColor(.black)
                     .padding()
@@ -52,6 +52,7 @@ struct DoctorsInfo: View {
                     .foregroundColor(.black)
 
                 ScrollView{
+                   
                     VStack{
                         ForEach(myDoctors.Speciality, id: \.self) { speciality in
                             VStack{
