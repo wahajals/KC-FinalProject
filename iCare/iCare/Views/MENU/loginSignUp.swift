@@ -15,9 +15,9 @@ struct loginSignUp: View {
 
     var body: some View {
         if userIsLoggedIn{
-            content
+            ProfileView()
         } else {
-           ProfileView()
+           content
         }
     }
 
