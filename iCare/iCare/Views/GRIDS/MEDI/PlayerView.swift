@@ -124,7 +124,7 @@ struct PlayerView: View {
 
 struct PlayerView_Previews: PreviewProvider {
     
-    static let meditationVm = MeditationViewModel(meditation: Meditation1.init(title: "Relaxing Mediatation", description: "", duration: 0, track: "", image: "1"))
+    static let meditationVm = MeditationViewModel(meditation: Meditation1.MeditationData)
     
     static var previews: some View {
         PlayerView(meditationVM: meditationVm, isPreview: true)

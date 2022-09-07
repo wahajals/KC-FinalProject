@@ -67,7 +67,7 @@ struct MeditationView: View {
 
 struct MeditationView_Previews: PreviewProvider {
     
-    static let meditationVm = MeditationViewModel(meditation:  Meditation1(title:"Relaxing Meditation", description:"Clear your mind & slumber into nothingness. Allocate only a few moments for a quick breather",duration: 153,track:"serenity",image:"1"))
+    static let meditationVm = MeditationViewModel(meditation:  Meditation1.MeditationData)
     
     static var previews: some View {
         MeditationView(meditationVM: meditationVm)

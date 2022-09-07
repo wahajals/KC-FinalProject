@@ -1,25 +1,26 @@
 //
-//  LogoutView.swift
+//  loginSignUp.swift
 //  iCare
 //
-//  Created by WSS on 02/09/2022.
+//  Created by WSS on 07/09/2022.
 //
 
 import SwiftUI
 import Firebase
+
 struct loginSignUp: View {
     @State private var email = ""
     @State private var password = ""
     @State private var userIsLoggedIn = false
-    
+
     var body: some View {
         if userIsLoggedIn{
-            ProfileView()
-        } else {
             content
+        } else {
+           ProfileView()
         }
     }
-    
+
     var content: some View{
         ZStack{
             Color.init("CustomColor")
@@ -41,7 +42,7 @@ struct loginSignUp: View {
                         Text("Email")
                             .foregroundColor(.white)
                             .bold()
-                        
+
                     }
                     Rectangle()
                     .frame(width: 350, height: 1)
@@ -57,7 +58,7 @@ struct loginSignUp: View {
                 Rectangle()
                 .frame(width: 350, height: 1)
                 .foregroundColor(.white)
-                
+
                 Button {
                     register()
                 } label: {
@@ -80,7 +81,7 @@ struct loginSignUp: View {
                 }
                 .padding(.top)
                 .offset(y: 110)
-                
+
             }
             .frame(width: 350)
             .onAppear {
@@ -92,7 +93,7 @@ struct loginSignUp: View {
             }
         }
     }
-    
+
     func login(){
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if error != nil{
@@ -100,7 +101,7 @@ struct loginSignUp: View {
             }
         }
     }
-    
+
     func register(){
         Auth.auth().createUser(withEmail: email, password: password) { result, error in
             if error != nil{
@@ -109,6 +110,7 @@ struct loginSignUp: View {
         }
     }
 }
+
 
 struct LoginSignUpView_Previews: PreviewProvider {
     static var previews: some View {

@@ -77,7 +77,7 @@ struct ExtractedCView: View {
             Text(myTilte)
                 .bold()
                 .frame(width:180, height:150, alignment: .center)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .font(.title3)
                 .padding()
         }

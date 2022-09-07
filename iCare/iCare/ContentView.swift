@@ -12,24 +12,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
         ZStack {
-            if isShowing {
-                SideMenuView(isShowing: $isShowing)
-            }
             TabMenuView()
                 .cornerRadius(isShowing ? 20 : 10)
                 .offset(x: isShowing ? 200 : 0, y: isShowing ? 44 : 0)
                 .scaleEffect(isShowing ? 0.8 : 1)
-                .navigationBarItems(leading: Button(action: {
-                    withAnimation(.spring()){
-                        isShowing.toggle()
-                    }
-                 }, label: {
-                     Image(systemName: "list.bullet.indent")
-                         .foregroundColor(.init("CustomColor2"))
-                 }))
             }
-        .onDisappear {
-            isShowing = false        }
                 }
         }
     }
@@ -49,17 +36,17 @@ struct TabMenuView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            NotificationsView()
+            OurMissionView()
                 .tabItem {
-                    Image(systemName: "bell")
-                    Text("Notifications")
+                    Image(systemName: "i.circle")
+                    Text("Our Mission")
                 }
-            SearchView()
+            ContactUsView()
                 .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Explore")
+                    Image(systemName: "questionmark.circle")
+                    Text("Contact Us")
                 }
-            ProfileView()
+            loginSignUp()
                 .tabItem {
                     Image(systemName: "person.2")
                     Text("My Profile")

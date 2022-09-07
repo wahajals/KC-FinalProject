@@ -15,7 +15,7 @@ struct TabScrollView: Identifiable {
 
 let myTabScrollView = [
     TabScrollView(title: "Mind And Body"),
-    TabScrollView(title: "Change"),
-    TabScrollView(title: "Healing"),
+    TabScrollView(title: "2"),
+    TabScrollView(title: "3"),
     
 ]

@@ -54,15 +54,6 @@ struct HomeIView: View {
                                         .frame(width:170, height: 170)
                                 }
                             }
-                            ZStack{
-                                ExtractedView(myTitle: "Exercises")
-                                NavigationLink {
-                                    Exercises()
-                                } label: {
-                                    Text("")
-                                        .frame(width:170, height: 170)
-                                }
-                            }
                         ZStack{
                             ExtractedView(myTitle: "Awareness")
                             NavigationLink {
@@ -90,16 +81,7 @@ struct HomeIView: View {
                                     .frame(width:170, height: 170)
                             }
                         }
-                        ZStack{
-                            ExtractedView(myTitle: "Calendar")
-                            NavigationLink {
-                                Calendar()
-                            } label: {
-                                Text("")
-                                    .frame(width:170, height: 170)
-                            }
-                        }
-                        ZStack{
+                    ZStack{
                             ExtractedView(myTitle: "Health Tracker")
                             NavigationLink {
                                 HealthTrackerView()
@@ -112,15 +94,6 @@ struct HomeIView: View {
                             ExtractedView(myTitle: "Products")
                             NavigationLink {
                                 Products()
-                            } label: {
-                                Text("")
-                                    .frame(width:170, height: 170)
-                            }
-                        }
-                        ZStack{
-                            ExtractedView(myTitle: "Community")
-                            NavigationLink {
-                                Login()
                             } label: {
                                 Text("")
                                     .frame(width:170, height: 170)

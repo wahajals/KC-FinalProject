@@ -25,6 +25,7 @@ class LoginViewModel: ObservableObject {
                 let code = try await PhoneAuthProvider.provider().verifyPhoneNumber("+\(mobileNo)", uiDelegate: nil)
                 await MainActor.run(body: {
                     CLIENT_CODE = code
+                    withAnimation(.easeInOut){showOTPField = true}
                 })
             }catch{
                await handleError(error: error)

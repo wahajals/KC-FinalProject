@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-import Firebase
+
 struct ProfileView: View {
     var body: some View {
         ZStack{
             VStack{
                 Text("My Profile")
-                    .frame(width:500,height:30, alignment: .bottom)
+                    .frame(width:400,height:60, alignment: .bottom)
                     .font(.system(size: 30, weight:.bold))
                     .padding()
                     .font(.custom("Chivo", size: 30))
@@ -20,37 +20,29 @@ struct ProfileView: View {
                     .foregroundColor(.init("CustomColor"))
                
                     .background(Rectangle().stroke(.tertiary))
-                                    .frame(width: 500,
-                                           height:30)
+                                    .frame(width: 400,
+                                           height:60)
                 Spacer()
-                Button {
-                    DispatchQueue.global(qos: .background).async {
-                       try? Auth.auth().signOut()
-                    }
-                } label: {
-                    Text("Log Out")
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
-                        .padding(.vertical,12)
-                        .frame(width: UIScreen.main.bounds.width / 2)
-                        .background(.black)
-                                
-                        
-                        .offset(y: -250)
-                }
-
-                Image("user")
-                               .resizable()
-                               .scaledToFit()
-                               .frame(width: 150, height: 150)
-
-            Spacer()
-               
-           
+                
+//                Button("Logout"){
+//                    try? Auth.auth().signOut()
+////                    signIn.sharedInstance.signOut()
+//                    withAnimation(.easeInOut){
+//                        userIsLoggedIn = false
+//                    }
+//                   
+//                }.background(.teal)
+//                    .frame(width: 200, height: 100)
+//                    .clipShape(Circle())
+//                    .padding()
+//                    .cornerRadius(25)
+                
+                
             }
         }
     }
-}
+    }
+
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {

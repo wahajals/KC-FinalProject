@@ -12,9 +12,6 @@ struct DoctorsInfo: View {
     var myDoctors: Doctors
     var body: some View {
         ZStack{
-            //            LinearGradient(gradient: Gradient(colors: [Color.init("CustomColor"),Color.init("CustomColor2")]), startPoint: .top, endPoint: .bottom)
-            //                .ignoresSafeArea()
-            //                .blur(radius: 12)
             Image("Doctor")
                 .resizable()
                 .ignoresSafeArea()

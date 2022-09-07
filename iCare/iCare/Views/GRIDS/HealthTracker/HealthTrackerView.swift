@@ -27,16 +27,7 @@ struct HealthTrackerView: View {
                         
                     }
                 }
-                    ZStack{
-                    ExtractedAView(myTilte: "Pills Reminder")
-                    NavigationLink {
-                       
-                    } label: {
-                        Text("")
-                            .frame(width: 170, height:170)
-                        
-                    }
-                }
+                
                 }
             }
             .opacity(0.8)
@@ -61,7 +52,7 @@ struct ExtractedAView: View {
         ZStack {
             Rectangle()
                 .frame(width: 180, height:180)
-                .foregroundColor(.black)
+                .foregroundColor(.white)
                 .cornerRadius(25)
                 .shadow(radius: 10)
                 .padding()
@@ -74,7 +65,7 @@ struct ExtractedAView: View {
             Text(myTilte)
                 .bold()
                 .frame(width:180, height:150, alignment: .bottom)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .font(.title)
                 .padding()
         }

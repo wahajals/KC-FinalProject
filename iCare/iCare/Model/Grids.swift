@@ -13,12 +13,9 @@ struct Grids: Identifiable{
 }
   let myGrids = [
     Grids(title: "Meditation"),
-    Grids(title: "Exercises"),
     Grids(title: "Awareness"),
     Grids(title: "Consult A Doctor"),
     Grids(title: "Lifestyle"),
-    Grids(title: "Calendar"),
     Grids(title: "Health Tracker"),
     Grids(title: "Products"),
-    Grids(title: "Community"),
   ]
