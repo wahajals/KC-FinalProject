@@ -14,11 +14,7 @@ struct Awareness: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Image("Awareness")
-                    .resizable()
-                    .ignoresSafeArea()
-                    .background(.white)
-                    .blur(radius: 8)
+                Color.white
                 ScrollView{
                     LazyVGrid(columns:Columns, spacing: 20){
                         ForEach(AwarenessData) { Data in

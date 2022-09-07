@@ -13,9 +13,9 @@ struct ContentView: View {
         NavigationView{
         ZStack {
             TabMenuView()
-                .cornerRadius(isShowing ? 20 : 10)
-                .offset(x: isShowing ? 200 : 0, y: isShowing ? 44 : 0)
-                .scaleEffect(isShowing ? 0.8 : 1)
+//                .cornerRadius(isShowing ? 20 : 10)
+//                .offset(x: isShowing ? 200 : 0, y: isShowing ? 44 : 0)
+//                .scaleEffect(isShowing ? 0.8 : 1)
             }
                 }
         }

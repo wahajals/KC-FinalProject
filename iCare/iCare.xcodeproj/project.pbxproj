@@ -142,13 +142,6 @@
 			path = MEDI;
 			sourceTree = "<group>";
 		};
-		3515F4A228C92D1100DBDF95 /* HELP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HELP;
-			sourceTree = "<group>";
-		};
 		3524B8B228C25BDF00DB5A1B /* TABMENU */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +160,6 @@
 				354768B728C46CEB00AD2AE3 /* Healthy */,
 				353BC19428C7C2300044460A /* HealthTracker */,
 				35C3262D28C6C202002F7CED /* Buying */,
-				3515F4A228C92D1100DBDF95 /* HELP */,
 				357F857828C86216003739DF /* CustomFonts */,
 			);
 			path = GRIDS;
